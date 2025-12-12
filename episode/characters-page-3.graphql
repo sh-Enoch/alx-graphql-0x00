@@ -1,0 +1,16 @@
+query {
+  episode(id:1){
+    id, 
+    name,
+    air_date, 
+    episode
+  }
+  characters(page:3){
+    results{
+      id
+      name
+      status
+      image
+    }
+  }
+}
